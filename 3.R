@@ -1,0 +1,9 @@
+su<-600851475143
+a<-1
+while(a<su){
+  if(su%%a==0){
+    su<-su/a
+  }
+  a<-a+1
+}
+print(su)
